@@ -113,8 +113,6 @@ if ( !defined("ABSPATH") )
 define('WPRO_ON', true); // Enables the plugin and use configuration from contants.
 define('WPRO_SERVICE', 's3'); // Amazon S3 is the service.
 define('WPRO_FOLDER', ''); // Prepend all URI paths at S3 with this folder. In most cases, you probably want this to be empty.
-define('WPRO_AWS_KEY', 'AKIAJBFWST6RQAPBAVQQ');
-define('WPRO_AWS_SECRET', 'PwPlaTj/Z7w/Ob/K87Yf5Swh5nn8Hroepkzv0f4M');
 define('WPRO_AWS_BUCKET', 'spark6-r2'); // The name of the Amazon S3 bucket where your files should be stored.
 define('WPRO_AWS_VIRTHOST', ''); // If you have a virthost for your Amazon S3 bucket, it should be there.
 define('WPRO_AWS_ENDPOINT', 's3-us-west-1.amazonaws.com'); // The Amazon endpoint datacenter where your S3 bucket is. 
